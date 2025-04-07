@@ -37,6 +37,7 @@ header {
   color: var(--black);
   padding: 0 20px !important;
   text-transform: capitalize;
+  transition: 0.3s linear;
 }
 .menu ul li a:hover {
   color: var(--orange);
@@ -169,3 +170,53 @@ header {
 .t_text {}
 .t_text p {}
 /* Testimonial End */
+
+/* Footer Start */
+.footer_top {
+  padding: 55px 0 55px;
+  background-color: #282531;
+}
+.ft_details {
+  padding-right: 120px;
+}
+.ft_details p {
+  color: var(--white);
+  line-height: 30px;
+  text-align: justify;
+}
+.ft_links {}
+.ft_links h5 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 30px;
+}
+.ft_links ul li a {
+  color: var(--white);
+  margin-bottom: 8px;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s linear;
+}
+.ft_links ul li a:hover {
+  color: var(--orange);
+}
+footer {
+  padding: 25px 0 30px;
+  background-color: #282531;
+  text-align: center;
+}
+footer p {
+  color:var(--white);
+
+}
+footer p a {
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+footer p a:hover {
+  color: var(--orange);
+}

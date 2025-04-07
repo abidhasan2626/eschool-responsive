@@ -70,6 +70,22 @@
     text-align: center;
     margin: 0 10px 0;
   }
+    /* Footer Top Start */
+    .footer_top{
+      padding: 55px 0 20px;
+      text-align: center;
+    }
+    .ft_details {
+      margin-bottom: 35px;
+      padding: 0 10px 0;
+    }
+    .ft_links {
+      margin-bottom: 35px;
+    }
+    footer {
+      padding: 0 0 30px;
+    }
+
 
 }
 
@@ -138,7 +154,18 @@
     text-align: justify;
     margin: 0 30px 0;
   }
-
+  /* Footer Top Start */
+  .footer_top {
+    text-align: center;
+  }
+  .ft_details {
+    margin-bottom: 35px;
+    padding: 0 30px 0;
+  }
+  footer {
+    padding: 0 0 30px;
+  }
+  
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -182,7 +209,18 @@
    .t_item {
     margin-top: 40px;
   }
-	
+  /* Footer Top Start */
+  .footer_top {
+    text-align: center;
+  }
+  .ft_details {
+    margin-bottom: 35px;
+    padding: 0 60px 0;
+  }
+  footer {
+    padding: 0 0 30px;
+  }
+  
 }
 
 
@@ -210,6 +248,13 @@
   }
   .sli {
     margin-right: 0px !important;
+  }
+  /* Footer top start */
+  .ft_details {
+    padding-right: 100px;
+  }
+  footer {
+    padding: 0 0 30px;
   }
 
 }
